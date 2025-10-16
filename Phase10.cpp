@@ -1,5 +1,5 @@
 #include "Phase10.h"
-#include "GameHistory.txt"
+//#include "GameHistory.txt"
 
 void Phase::playerHistory()
 {
@@ -196,7 +196,7 @@ int Phase::Winner()
                 testScore = players[Allwinner[y]].GetScore();
                 if (y == 0) {
                     lastScore = testScore;
-                }
+                } 
                 else {
                     if (testScore < lastScore) {
                         lastScore = testScore;

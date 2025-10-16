@@ -129,10 +129,14 @@
   <ItemGroup>
     <ClCompile Include="GameRecordingMain.cpp" />
     <ClCompile Include="Phase10.cpp" />
+    <ClCompile Include="PlayNine.cpp" />
+    <ClCompile Include="UnoFlip.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Phase10.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayNine.h" />
+    <ClInclude Include="UnoFlip.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="GameHistory.txt" />
